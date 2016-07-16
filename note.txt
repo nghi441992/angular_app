@@ -1,0 +1,3 @@
+https://github.com/nghi441992/angular_app
+npm install -g grunt-cli grunt
+http://namcoder.com/huong-dan-nen-css-js-su-dung-grunt/
