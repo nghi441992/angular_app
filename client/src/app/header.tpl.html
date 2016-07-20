@@ -8,10 +8,10 @@
         <ul class="nav" ng-show="isAuthenticated()">
             <li ng-class="{active:isNavbarActive('projects')}"><a href="/projects">My Class</a></li>
             <li class="dropdown" ng-class="{active:isNavbarActive('admin'), open:isAdminOpen}" ng-show="isAdmin()">
-                <a id="adminmenu" role="button" class="dropdown-toggle" ng-click="isAdminOpen=!isAdminOpen">Admin<b class="caret"></b></a>
+                <a id="adminmenu" role="button" class="dropdown-toggle" ng-click="isAdminOpen=!isAdminOpen">Admin Manager<b class="caret"></b></a>
                 <ul class="dropdown-menu" role="menu" aria-labelledby="adminmenu">
-                    <li><a tabindex="-1" href="/admin/projects" ng-click="isAdminOpen=false">Manage Class</a></li>
-                    <li><a tabindex="-1" href="/admin/users" ng-click="isAdminOpen=false">Manage Users</a></li>
+                    <li><a tabindex="-1" href="/admin/projects" ng-click="isAdminOpen=false">Manager Class</a></li>
+                    <li><a tabindex="-1" href="/admin/users" ng-click="isAdminOpen=false">Manager Users</a></li>
                 </ul>
             </li>
         </ul>
