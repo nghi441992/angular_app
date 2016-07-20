@@ -4,7 +4,7 @@
         <th class="span3">Name</th>
         <th class="span5">Description</th>
         <th class="span2">My Role(s)</th>
-        <th class="span2">Tools</th>
+        <!--<th class="span2">Tools</th>-->
     </tr>
     </thead>
     <tbody>
@@ -12,10 +12,10 @@
         <td ng-click="manageBacklog(project)">{{project.name}}</td>
         <td ng-click="manageBacklog(project)">{{project.desc}}</td>
         <td>{{ getMyRoles(project) }}</td>
-        <td>
-            <a ng-click="manageBacklog(project)">Product backlog</a>
-            <a ng-click="manageSprints(project)">Sprints</a>
-        </td>
+        <!--<td>-->
+            <!--<a ng-click="manageBacklog(project)">Product backlog</a>-->
+            <!--<a ng-click="manageSprints(project)">Sprints</a>-->
+        <!--</td>-->
     </tr>
     </tbody>
 </table>
